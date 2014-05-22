@@ -86,11 +86,10 @@ func start(stage *Stage) {
 }
 
 /*
-// Java の import 文の代わりにこんな感じに書ける
-var StackPane = javafx.scene.layout.StackPane;
-var Scene     = javafx.scene.Scene;
-var Label     = javafx.scene.control.Label;
-var Screen    = javafx.stage.Screen;
+var StackPane = Java.type('javafx.scene.layout.StackPane');
+var Scene     = Java.type('javafx.scene.Scene');
+var Label     = Java.type('javafx.scene.control.Label');
+var Screen    = Java.type('javafx.stage.Screen');
 
 function start(stage) {
     stage.title = "Hello World!";

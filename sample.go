@@ -89,7 +89,6 @@ func start(stage *Stage) {
 var StackPane = Java.type('javafx.scene.layout.StackPane');
 var Scene     = Java.type('javafx.scene.Scene');
 var Label     = Java.type('javafx.scene.control.Label');
-var Screen    = Java.type('javafx.stage.Screen');
 
 function start(stage) {
     stage.title = "Hello World!";
